@@ -7,6 +7,7 @@ describe("Engineer", () => {
         name: "Hardik",
         id: 1111,
         email: "hrsautomation20@gmail.com",
+        gitHub: "hrsautomation20",
       };
       const engineer = new Engineer(obj);
       expect(engineer.name).toEqual(expect.any(String));
@@ -17,14 +18,23 @@ describe("Engineer", () => {
   });
   describe("github url", () => {
     it("should get github URL", () => {
-      const engineer = new Engineer(this.obj);
+      const obj = {
+        name: "Hardik",
+        id: 1111,
+        email: "hrsautomation20@gmail.com",
+        gitHub: "hrsautomation20",
+      };
+      const engineer = new Engineer(obj);
       expect(engineer.getGitHub()).toEqual(expect.any(String));
-    //   console.log(engineer.getGitHub());
+      //   console.log(engineer.getGitHub());
     });
   });
   describe("engineer role", () => {
     it("should get engineer role", () => {
-      const engineer = new Engineer(this.obj);
+      const obj = {
+        role: "Engineer",
+      };
+      const engineer = new Engineer(obj);
       expect(engineer.getRole()).toEqual(expect.any(String));
     });
   });
