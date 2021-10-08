@@ -3,9 +3,10 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    background-color: lightgray;
+    background-color: darkblue;
     padding-bottom: 30px;
     margin-bottom: 1rem;
+    color: white;
 }
 
 header h1 {

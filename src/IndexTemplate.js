@@ -23,7 +23,7 @@ class HtmlGenerator {
          </head>
          <body>
              <header class="header-bag">
-                 <h1 class="align-self-center"> <i class="icon-coffee"></i> My Team</h1>
+                 <h1 class="align-self-center"> <i class="icon-coffee"></i> Team Org Chart</h1>
              </header>
              <div class="container">
                  <div class="row">
@@ -31,7 +31,7 @@ class HtmlGenerator {
              <div class="col-sm">
                  <div class="card">
                      <div class="card-header">
-                         <h3 class="card-title">${name}}</h3>
+                         <h3 class="card-title">${name}</h3>
                          <h3 class="card-title"> <i class="fas fa-mug-hot"></i> ${this.getManagerRole(
                            objManager
                          )}</h3>
