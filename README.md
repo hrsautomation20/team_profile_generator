@@ -3,11 +3,12 @@
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
 3. [ Usage tips. ](#usage)
-4. [ Features. ](#features)
-5. [ Licenses. ](#licenses)
-6. [ Install Command. ](#commandInstall)
-7. [ Contributing. ](#contributing)
-8. [ Questions. ](#questions)
+4. [ Video Tutorial.](#video)
+5. [ Features. ](#features)
+6. [ Licenses. ](#licenses)
+7. [ Install Command. ](#commandInstall)
+8. [ Contributing. ](#contributing)
+9. [ Questions. ](#questions)
 
 ### For license description, click on the badge to get more information.
 
@@ -35,9 +36,16 @@ https://github.com/hrsautomation20/team_profile_generator
 
 Run node index.js and answer the prompts in command-line
 
+<a a name = "video"></a>
+
+## 4. Video Walk-through
+
+https://watch.screencastify.com/v/dx0MayRSsOCWN1ru0VsJ
+
+
 <a name="features"></a>
 
-## 4. Features
+## 5. Features
 
 ### File Structure
 
@@ -53,26 +61,26 @@ Run node index.js and answer the prompts in command-line
 
 <a name="licenses"></a>
 
-## 5. Licenses
+## 6. Licenses
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <a name="commandInstall"></a>
 
-## 6. Install Command
+## 7. Install Command
 
 - Dependencies are Inquirer and Jest
 - To Install dependencies open the Terminal and type "npm install" or "npm i"
 
 <a name="contributing"></a>
 
-## 7. Contributing
+## 8. Contributing
 
 Please email Repo Owner or you can colon the repo.
 
 <a name="questions"></a>
 
-## 8. Questions
+## 9. Questions
 
 Please reach out to me
 
